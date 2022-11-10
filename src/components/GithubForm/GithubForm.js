@@ -7,7 +7,7 @@ const GithubForm = ({ input, setInput, handleSubmit }) => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
       ></input>
-      <button type="submit"></button>
+      <button type="submit">Click Me</button>
     </form>
   );
 };
